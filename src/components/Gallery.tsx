@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiX, FiZoomIn } from 'react-icons/fi';
 import { galleryItems } from '../data';
 
-const categories = ['All', 'Construction', 'Infrastructure', 'Warehousing', 'Manufacturing', 'Utilities'];
+const categories = ['All'];
 
 export default function Gallery() {
   const [active, setActive] = useState('All');

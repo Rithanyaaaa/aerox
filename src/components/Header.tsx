@@ -1,4 +1,4 @@
-import { FaPhone, FaEnvelope, FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 
 export default function Header() {
@@ -20,14 +20,6 @@ export default function Header() {
           </a>
         </div>
         <div className="flex items-center gap-4">
-          <div className="flex items-center gap-3">
-            {[FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube].map((Icon, i) => (
-              <a key={i} href="#" className="hover:text-white/70 transition-colors">
-                <Icon size={13} />
-              </a>
-            ))}
-          </div>
-          <div className="w-px h-4 bg-white/30" />
           <a
             href="#"
             className="flex items-center gap-1.5 bg-white text-primary font-semibold px-3 py-1 hover:bg-white/90 transition-colors text-xs uppercase tracking-wide"
