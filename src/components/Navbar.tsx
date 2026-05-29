@@ -53,12 +53,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <button onClick={() => handleNavClick('/')} className="flex items-center gap-2 group">
-            <img src="/logo.png" alt="AEROX Logo" className="w-10 h-10 object-contain" />
-            <div>
-              <div className="text-gray-900 font-black text-xl tracking-wider leading-none">AEROX</div>
-              <div className="text-primary text-[9px] font-semibold tracking-[0.2em] uppercase">Industrial Solutions</div>
-            </div>
+          <button onClick={() => handleNavClick('/')} className="flex items-center group">
+            <img src="/logo.png" alt="AEROX Logo" className="h-14 w-auto object-contain" />
           </button>
 
           {/* Desktop Nav */}
