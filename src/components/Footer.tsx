@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-5">
-              <div className="w-10 h-10 bg-primary flex items-center justify-center font-black text-white text-xl">A</div>
+              <img src="/logo.png" alt="AEROX Logo" className="w-10 h-10 object-contain" />
               <div>
                 <div className="text-white font-black text-xl tracking-wider leading-none">AEROX</div>
                 <div className="text-primary text-[9px] font-semibold tracking-[0.2em] uppercase">Industrial Solutions</div>
